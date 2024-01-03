@@ -11,8 +11,8 @@ export default function MobileMenu() {
         return;
     }
     return (
-        <div className='h-auto p-4 lg:hidden'>
-            <div className='flex flex-col justify-center items-center gap-4'>
+        <div className='bg-opacity-70 fixed w-full bg-neutral-950 h-screen lg:hidden'>
+            <div className='flex flex-col justify-center items-center gap-4 bg-white p-4 '>
                 <div className='flex flex-col items-center justify-center gap-4 border-b border-gray-200 w-full py-3 uppercase font-semibold'>
                     <Link href='/stories'>stories</Link>
                     <Link href='/features'>features</Link>
