@@ -7,6 +7,7 @@ import Image from 'next/image'
 
 import Cards from './Cards'
 import Board from './Board'
+import Beta from '@/components/Beta'
 
 export default function Pricing() {
 
@@ -42,6 +43,7 @@ export default function Pricing() {
          */}
       <Cards />
       <Board />
+      <Beta />
     </div>
   )
 }
