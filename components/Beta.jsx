@@ -1,3 +1,4 @@
+
 import React from 'react'
 import beta from '@/starter-code/assets/shared/desktop/bg-beta.jpg'
 import betaMobile from '@/starter-code/assets/shared/mobile/bg-beta.jpg'
@@ -7,7 +8,7 @@ import { MoveRight } from 'lucide-react'
 
 export default function Beta() {
   return (
-    <div className='relative w-full mt-12 col-span-3'>
+    <div className='relative w-full mt-12 sm:col-span-3'>
         <Image
         className='hidden lg:block w-full'
         src={beta}
