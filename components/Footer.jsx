@@ -9,8 +9,8 @@ export default function Footer() {
     const path = usePathname()
 
     return (
-        <div className={`bg-black w-full  ${path === '/stories' ? 'mt-0' : 'mt-14 md:mt-28' }`}>
-            <div className='p-10 flex flex-col items-center justify-center sm:flex-row sm:justify-between sm:h-[15rem]'>
+        <div className={`bg-black w-full  ${path === '/stories' || '/features' || '/pricing' ? 'mt-0' : 'mt-14 md:mt-28' }`}>
+            <div className='container p-10 flex flex-col items-center justify-center sm:flex-row sm:justify-between sm:h-[15rem]'>
 
                 <div className='flex flex-col justify-center items-center sm:items-start h-full relative gap-6'>
                     <div>

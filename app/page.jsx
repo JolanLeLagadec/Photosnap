@@ -231,7 +231,7 @@ export default function Home() {
           </div>
         </Link>
       </div>
-      <div className='grid row-start-10 sm:col-start-2 mt-14 lg:grid-cols-3  lg:col-span-8 space-y-12 lg:space-y-0'>
+      <div className='container grid sm:col-start-2 mt-14 lg:grid-cols-3 lg:col-span-8 space-y-12 lg:space-y-0 mb-20'>
         <div className='flex flex-col justify-center items-center text-center gap-3 col-span-1 w-full '>
           <Image
           className='lg:py-6'

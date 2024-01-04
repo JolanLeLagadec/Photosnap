@@ -150,7 +150,7 @@ export default function Stories() {
             <span className='text-gray-400 font-semibold text-sm -mb-3 uppercase'>Last month&apos;s featured story</span>
             <h1 className='text-4xl font-bold  text-white tracking-widest xl:leading-[4rem] lg:leading-[2rem] uppercase max-w-[303px] '>Hazy full moon of Appalachia</h1>
             <h2 className='text-gray-400'>March 2nd 2020<span className='text-white ml-3'>by John Appleseed</span></h2>
-            <p className='text-gray-300'>The dissected plateau area, while not actually made up of geological mountains,
+            <p className='text-gray-300 leading-8'>The dissected plateau area, while not actually made up of geological mountains,
               is popularly called &quot;mountains&quot; especially in eastern Kentucky and West Virginia,
               and while the ridges are not high, the terrain is extremely rugged.</p>
             <div className='flex items-center w-full gap-10'>
@@ -166,10 +166,7 @@ export default function Stories() {
             <Picture {...pict} />
           </div>   
         ))
-
       }
-
-
     </div>
   )
 }
