@@ -25,7 +25,7 @@ export default function Beta() {
         alt=''
          />
          <div className='container absolute gap-4 flex flex-col items-left sm:flex-row sm:items-center sm:justify-between  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-full  '>
-            <h1 className='text-5xl  tracking-widest font-bold text-white uppercase max-w-lg sm:max-w-sm lg:max-w-lg lg:text-4xl xl:text-5xl leading-[3.5rem]'>we&apos;re in beta get your invite today!</h1>
+            <h1 className=' text-4xl sm:text-5xl  tracking-widest font-bold text-white uppercase max-w-lg sm:max-w-sm lg:max-w-lg lg:text-4xl xl:text-5xl sm:leading-[3.5rem]'>we&apos;re in beta get your invite today!</h1>
             <div className='flex gap-1 items-center sm:justify-end w-full xl:w-auto mt-5'>
               <button className=' uppercase text-sm  text-white hover:underline tracking-[0.3rem] '>get an invite</button>
               <MoveRight color='white' width={32} strokeWidth={0.7} />
